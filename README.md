@@ -1,2 +1,3 @@
-# matts-shred-shack
-My guitar lesson website
+# Matt's Shred Shack
+
+https://mattattaq.github.io/matts-shred-shack/
