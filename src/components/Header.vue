@@ -14,7 +14,7 @@ const count = ref(0)
       <h1>Matt's Shred Shack!</h1>
       <ul>
         <li><a href="#about">About</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
+        <!-- <li><a href="#testimonials">Testimonials</a></li> -->
         <li><a href="#schedule">Schedule Your Lesson</a></li>
       </ul>
     </div>

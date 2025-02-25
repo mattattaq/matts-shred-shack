@@ -1,0 +1,21 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <!-- Amp Body -->
+  <rect x="20" y="40" width="216" height="176" rx="15" fill="orange" stroke="black" stroke-width="4"/>
+  
+  <!-- Cream Mesh Front -->
+  <rect x="40" y="70" width="176" height="120" rx="10" fill="beige" stroke="black" stroke-width="3"/>
+
+  <!-- Amp Control Panel -->
+  <rect x="50" y="50" width="156" height="20" rx="5" fill="black" stroke="black" stroke-width="2"/>
+  
+  <!-- Knobs -->
+  <circle cx="70" cy="60" r="4" fill="white"/>
+  <circle cx="90" cy="60" r="4" fill="white"/>
+  <circle cx="110" cy="60" r="4" fill="white"/>
+  <circle cx="130" cy="60" r="4" fill="white"/>
+  <circle cx="150" cy="60" r="4" fill="white"/>
+  <circle cx="170" cy="60" r="4" fill="white"/>
+
+  <!-- "Matt" Logo in Red -->
+  <text x="85" y="140" font-size="32" font-family="Arial" font-weight="bold" fill="red">Matt</text>
+</svg>
