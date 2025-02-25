@@ -1,5 +1,14 @@
 <script setup>
 import { onMounted } from 'vue';
+import splash from '@/assets/splash.jpg';
+import teacher from '@/assets/meet-your-teacher.jpg';
+import winter from '@/assets/sg-winter.jpg';
+import fenderSplash from '@/assets/fender-splash.jpg';
+
+const splashUrl = splash;
+const teacherUrl = teacher;
+const winterUrl = winter;
+const fenderSplashUrl = fenderSplash;
 
 onMounted(() => {
   const elements = document.querySelectorAll('.fade-in');
@@ -20,7 +29,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <section id="top">
+  <section id="top" :style="{ backgroundImage: `url(${splashUrl})` }">
     <div class="container">
       <h2>Your Shred Journey Starts Here!</h2>
       <p class="bottom fade-in">
@@ -48,11 +57,11 @@ onMounted(() => {
         </p>
       </div>
       <div class="half">
-        <img src="../assets/meet-your-teacher.jpg" alt="It's me, Matthew Allbright">
+        <img :src="teacherUrl" alt="It's me, Matthew Allbright">
       </div>
     </div>
   </section>
-  <section id="middle">
+  <section id="middle" :style="{ backgroundImage: `url(${fenderSplashUrl})` }">
     <div class="container">
       <p class="bottom fade-in">
         What you'll learn.
@@ -82,7 +91,7 @@ onMounted(() => {
   <section id="lesson">
     <div class="container">
       <div class="half hide-on-mobile">
-        <img src="../assets/sg-winter.jpg" alt="It's me, Matthew Allbright">
+        <img :src="winterUrl" alt="It's me, Matthew Allbright">
       </div>
       <div class="half">
         <h3>Lessons & Pricing</h3>
@@ -176,7 +185,6 @@ section {
 
 /* top section */
 #top {
-  background-image: url('../assets/splash.jpg');
   background-size: cover;
   height: 100%;
   min-height: 600px;
@@ -186,7 +194,6 @@ section {
 /* middle section */
 
 #middle {
-  background-image: url('../assets/fender-splash.jpg');
   background-size: cover;
   height: 100%;
   min-height: 600px;

@@ -1,10 +1,14 @@
 <script setup>
+import notes from '@/assets/notes.jpg';
+
+const notesUrl = notes;
 
 </script>
 
 <template>
   <footer>
-    <section id="footer">
+    <!-- background-image: url("../assets/notes.jpg"); -->
+    <section id="footer" :style="{ backgroundImage: `url(${notesUrl})` }">
       <div class="container">
         <ul>
           <li><a href="#about">About</a></li>
@@ -43,7 +47,6 @@ blockquote {
 #footer {
   background-position: center;
   background-size: cover;
-  background-image: url("../assets/notes.jpg");
   min-height: 200px;
   padding-top: 8px;
   width: 100%;
