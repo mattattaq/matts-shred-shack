@@ -10,7 +10,7 @@
           <li><a href="#about">About</a></li>
           <!-- <li><a href="#testimonials">Testimonials</a></li> -->
           <li><a href="#lesson">Book a Lesson</a></li>
-          <li><a href="https://www.linkedin.com/in/matthew-allbright-b4896749/" target="_blank"></a>LinkedIN</li>
+          <li><a href="https://www.linkedin.com/in/matthew-allbright-b4896749/" target="_blank">LinkedIN</a></li>
         </ul>
         <blockquote>"Shred Hard, Play Loud, Stay Metal!"</blockquote>
         <p>© 2025 Matt's Shred Shack. All Rights Reserved.</p>
