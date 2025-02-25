@@ -1,14 +1,10 @@
 <script setup>
 import { onMounted } from 'vue';
-import splash from '@/assets/splash.jpg';
-import teacher from '@/assets/meet-your-teacher.jpg';
-import winter from '@/assets/sg-winter.jpg';
-import fenderSplash from '@/assets/fender-splash.jpg';
 
-const splashUrl = splash;
-const teacherUrl = teacher;
-const winterUrl = winter;
-const fenderSplashUrl = fenderSplash;
+const splashUrl = '../splash.jpg';
+const teacherUrl = '../meet-your-teacher.jpg';
+const winterUrl = '../sg-winter.jpg';
+const fenderSplashUrl = '../fender-splash.jpg';
 
 onMounted(() => {
   const elements = document.querySelectorAll('.fade-in');

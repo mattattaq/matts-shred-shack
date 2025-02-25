@@ -1,7 +1,6 @@
 <script setup>
-import notes from '@/assets/notes.jpg';
 
-const notesUrl = notes;
+const notesUrl = `../notes.jpg`;
 
 </script>
 
