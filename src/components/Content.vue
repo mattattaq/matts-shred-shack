@@ -76,12 +76,12 @@ onMounted(() => {
       </ul>
     </div>
   </section>
-  <section id="testimonials">
+  <!-- <section id="testimonials">
     <div class="container"></div>
-  </section>
+  </section> -->
   <section id="lesson">
     <div class="container">
-      <div class="half">
+      <div class="half hide-on-mobile">
         <img src="../assets/sg-winter.jpg" alt="It's me, Matthew Allbright">
       </div>
       <div class="half">
@@ -233,5 +233,30 @@ section {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+}
+
+/* lesson section */
+#lesson {
+  height: 100%;
+  display: flex;
+}
+
+/* media queries */
+@media screen and (max-width: 1024px) {
+  .half {
+    max-width: 100%;
+    width: 100%;
+    clear: both;
+    padding: 8px;
+    flex: none;
+  }
+
+  .hide-on-mobile {
+    display: none;
+  }
+
+  .button {
+    width: 80%;
+  }
 }
 </style>

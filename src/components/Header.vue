@@ -73,4 +73,27 @@ header ul li a {
 header ul li a:hover {
   color: var(--yellow);
 }
+
+/* media queries */
+@media screen and (max-width: 1024px) {
+  header {
+    min-height: 100px;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 3em;
+    display: block;
+    width: 100%;
+  }
+
+  header ul {
+    display: inline-flex;
+  }
+
+  header ul li {
+    margin-left: 16px;
+  }
+
+}
 </style>
