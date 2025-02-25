@@ -15,7 +15,7 @@ const count = ref(0)
       <ul>
         <li><a href="#about">About</a></li>
         <!-- <li><a href="#testimonials">Testimonials</a></li> -->
-        <li><a href="#schedule">Schedule Your Lesson</a></li>
+        <li><a href="#lesson">Schedule Your Lesson</a></li>
       </ul>
     </div>
   </header>
